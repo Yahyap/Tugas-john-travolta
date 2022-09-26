@@ -1,6 +1,10 @@
-nonlembur = 40
-lembur = 12
-pengeluaran = 600000
+# nonlembur = 40
+# lembur = 12
+# pengeluaran = 600000
+
+lembur = int(input("Masukkan jumlah jam lembur: "))
+nonlembur = int(input("Masukkan jumlah jam kerja: "))
+pengeluaran = int(input("Masukkan pengeluaran: "))
 
 def gajinonlembur(nonlembur):
     hgajinonlembur = nonlembur * 15000
