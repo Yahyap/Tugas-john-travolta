@@ -21,6 +21,7 @@ def totalgaji(gajinonlembur, gajilembur):
 def hasiltabungan(totalgaji, pengeluaran):
     hasiltabungan = totalgaji - pengeluaran
     return hasiltabungan
+    
 
 print("Gaji Non Lembur: Rp.", gajinonlembur(nonlembur))
 print("Gaji Lembur: Rp.", gajilembur(lembur))
@@ -28,10 +29,12 @@ print("Total Gaji: Rp.", totalgaji(gajinonlembur(nonlembur), gajilembur(lembur))
 
 if (totalgaji(gajinonlembur(nonlembur), gajilembur(lembur)) > pengeluaran):
     print("Bisa menabung")
+    print("Tabungan: Rp.", hasiltabungan(totalgaji(gajinonlembur(nonlembur), gajilembur(lembur)), pengeluaran))
 elif (totalgaji(gajinonlembur(nonlembur), gajilembur(lembur)) == pengeluaran):
     print("Tidak bisa menabung")
 else:
     print("Cari tambahan")
+    print("Kurang: Rp.", hasiltabungan(totalgaji(gajinonlembur(nonlembur), gajilembur(lembur)), pengeluaran))
 
 
 
