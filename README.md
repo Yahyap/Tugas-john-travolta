@@ -1,8 +1,7 @@
 # Tugas-john-travolta
-
-
-KELOMPOK 10
-
-Yahya
-raisha
-bei
+======
+KELOMPOK 10:
+-----
+- Yahya
+- Raisha
+- Bei
